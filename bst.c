@@ -131,7 +131,8 @@ void BST_Delete( BST** bst )
  * @param bst Un árbol BST.
  * @param p Referencia al elemento a insertar.
  *
- * @return true si el elemento pudo ser insertado; false si falló la asignación de memoria, (o si se encontró un duplicado (cuando se incorpore dicha funcionalidad)).
+ * @return true si el elemento pudo ser insertado; false si se encontró un duplicado (cuando incorpores esta funcionalidad).
+ * @post Dispara una aserción si el nodo no pudo ser creado por falta de memoria.
  }
  */
 bool BST_Insert( BST* bst, Product* p )
