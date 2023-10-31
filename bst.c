@@ -267,11 +267,11 @@ void print( Product* p )
            p->barcode, p->name );
 }
 
-void BST_Min( BST* bst, int key, Product* p )
+void BST_Min( BST* bst, Product* p )
 {
 }
 
-void BST_Max( BST* bst, int key, Product* p )
+void BST_Max( BST* bst, Product* p )
 {
 }
 
